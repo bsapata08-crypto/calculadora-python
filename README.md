@@ -1,26 +1,38 @@
-Calculadora em Python
+# Calculadora em Python
 
-Projeto de uma calculadora simples em Python, executada via terminal, que realiza operações básicas: soma, subtração, multiplicação e divisão.
+Projeto de uma calculadora simples desenvolvida em Python, executada via terminal, capaz de realizar operações matemáticas básicas:
 
-Estrutura do projeto
+* Soma
 
+* Subtração
+
+* Multiplicação
+
+* Divisão
+
+## Estrutura do Projeto
 calculadora/
 ├── calculadora.py
 └── calculadora.sh
 
-calculadora.py: contém toda a lógica do programa.
+## Descrição dos arquivos
 
-calculadora.sh: script responsável apenas por executar o arquivo Python.
+* calculadora.py
+Contém toda a lógica da calculadora, incluindo o menu, entrada de dados e execução das operações.
 
-Como executar
+* calculadora.sh
+Script responsável apenas por executar o arquivo Python de forma automatizada.
 
+## Como Executar
+* Opção 1 — Executando diretamente com Python
 python3 calculadora.py
 
-Ou:
-
+* Opção 2 — Executando via script .sh
 chmod +x calculadora.sh
 ./calculadora.sh
 
-Observação
+## Observação
 
-O projeto segue boas práticas, mantendo o código Python em um arquivo .py e utilizando o .sh apenas para execução.
+O projeto segue boas práticas de organização, mantendo toda a lógica da aplicação no arquivo .py e utilizando o .sh apenas como facilitador para a execução do programa.
+
+Se quiser, posso adaptar o texto para um trabalho acadêmico, simplificar ainda mais, ou deixar mais técnico para portfólio no GitHub.
